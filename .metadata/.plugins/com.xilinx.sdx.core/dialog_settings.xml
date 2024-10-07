@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="sdx.custom.platform.repository.locations" value="E:\8191588\FPGA_mag2.1_lab1\lab1_platform\export\lab1_platform"/>
+	<item key="sdx.custom.platform.repository.locations" value="E:\8191588\FPGA_mag2.1_lab1\lab1_platform\export\lab1_platform;E:\8191588\FPGA_mag2.1_lab1\lab2platform\export\lab2platform"/>
 </section>
