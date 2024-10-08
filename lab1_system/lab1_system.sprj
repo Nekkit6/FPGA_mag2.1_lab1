@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="lab1_system" platform="E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/lab1_platform.xpfm" platformUID="xilinx:::0.0(custom)" sysConfig="lab1_platform" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
-  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.2142433057">
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="lab1_system" platform="E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/system_wrapper.xpfm" platformUID="xilinx:zedboard::0.0(custom)" sysConfig="system_wrapper" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.719060560">
     <configBuildOptions xsi:type="systemproject:SystemOptions">
       <applications name="lab1" domainName="standalone_ps7_cortexa9_0" domainPrettyName="standalone_ps7_cortexa9_0" appBuildConfig="Debug"/>
       <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
@@ -10,7 +10,7 @@
       <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
     </lastBuildOptions>
   </configuration>
-  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.794512061">
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.949525640">
     <configBuildOptions xsi:type="systemproject:SystemOptions">
       <applications name="lab1" domainName="standalone_ps7_cortexa9_0" domainPrettyName="standalone_ps7_cortexa9_0" appBuildConfig="Release"/>
       <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>

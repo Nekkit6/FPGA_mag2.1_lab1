@@ -1,68 +1,71 @@
-!SESSION 2024-10-07 10:03:49.006 -----------------------------------------------
+!SESSION 2024-10-08 22:06:10.293 -----------------------------------------------
 eclipse.buildId=2023.1
 java.version=11.0.16.1
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
-!ENTRY org.eclipse.ui 4 4 2024-10-07 10:05:54.157
+!ENTRY org.eclipse.ui 4 4 2024-10-08 22:06:35.298
 !MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:06:35.258
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:06:53.970
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:06:53.970
 !MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:06:35.258
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:06:53.982
 !MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-15
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:06:35.264
-!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:06:54.290
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:06:35.264
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:06:54.290
 !MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:06:35.266
-!MESSAGE XSCT Command: [setws E:/8191588/FPGA_mag2.1_lab1], Thread: Thread-20
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:06:54.290
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:06:35.517
-!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
-
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:06:35.517
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:06:54.290
 !MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-15
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:06:35.517
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:06:54.297
+!MESSAGE XSCT Command: [setws E:/8191588/FPGA_mag2.1_lab1], Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:06:54.297
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, E:/xilinx/SharedData/2023.1/data;E:/xilinx/Vitis/2023.1/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:06:54.298
 !MESSAGE XSCT command with result: [setws E:/8191588/FPGA_mag2.1_lab1], Result: [null, ]. Thread: Thread-20
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:06:35.517
-!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
-
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:06:35.537
-!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, E:/xilinx/SharedData/2023.1/data;E:/xilinx/Vitis/2023.1/data]. Thread: Worker-0: Initializing s/w repositories
-
-!ENTRY com.xilinx.sdk.utils 1 0 2024-10-07 10:10:36.067
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-08 22:07:07.498
 !MESSAGE Opening file dialog using preferences. Current path: E:\xilinx\Vitis\2023.1\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:10:48.832
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-08 22:08:03.428
+!MESSAGE Opening file dialog using preferences. Current path: E:\xilinx\Vitis\2023.1\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:10:50.062
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:06.922
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:10:50.079
-!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:08.713
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:10:50.081
-!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa], Result: [null, {"device": "7z020",
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:08.730
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:08.739
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa], Result: [null, {"device": "7z020",
 "family": "zynq",
-"timestamp": "Mon Oct  7 09:57:59 2024",
+"timestamp": "Mon Oct  7 16:34:29 2024",
 "vivado_version": "2023.1",
 "part": "xc7z020clg484-1",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:10:50.084
-!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:08.742
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:10:50.093
-!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa], Result: [null, {"processing_system7_0": {"hier_name": "processing_system7_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:08.750
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa], Result: [null, {"processing_system7_0": {"hier_name": "processing_system7_0",
 "type": "processing_system7",
 "version": "5.5",
 "ip_type": "",
@@ -224,11 +227,11 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:24.466
-!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:44.403
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:24.487
-!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_13": {"name": "freertos10_xilinx",
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:44.413
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_13": {"name": "freertos10_xilinx",
 "version": "1.13",
 "desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.5.1",
 "compilerflags": "",
@@ -260,10 +263,10 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:41.991
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:50.739
 !MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:42.021
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:50.757
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
 "description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
 "supp_proc": "psu_cortexr5",
@@ -594,31 +597,31 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:42.070
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:50.819
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:42.102
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:50.851
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:42.103
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:50.852
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:42.133
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:50.881
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:44.234
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app memory_tests -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:52.927
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app memory_tests -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:44.265
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app memory_tests -sw {} -arch {}], Result: [null, ps7_ram_0]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:52.956
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app memory_tests -sw {} -arch {}], Result: [null, ps7_ram_0]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:52.894
-!MESSAGE XSCT Command: [platform create -name {lab1_platform} -hw {E:\8191588\FPGA_mag2.1_lab1\XSA\system_wrapper.xsa} -out {E:/8191588/FPGA_mag2.1_lab1};platform write], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:08:54.573
+!MESSAGE XSCT Command: [platform create -name {system_wrapper} -hw {E:\8191588\FPGA_mag2.1_lab1\XSA\system_wrapper.xsa} -out {E:/8191588/FPGA_mag2.1_lab1};platform write], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:57.896
-!MESSAGE XSCT command with result: [platform create -name {lab1_platform} -hw {E:\8191588\FPGA_mag2.1_lab1\XSA\system_wrapper.xsa} -out {E:/8191588/FPGA_mag2.1_lab1};platform write], Result: [null, Successfully saved  the platform at "E:/8191588/FPGA_mag2.1_lab1/lab1_platform/platform.spr"]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:01.574
+!MESSAGE XSCT command with result: [platform create -name {system_wrapper} -hw {E:\8191588\FPGA_mag2.1_lab1\XSA\system_wrapper.xsa} -out {E:/8191588/FPGA_mag2.1_lab1};platform write], Result: [null, Successfully saved  the platform at "E:/8191588/FPGA_mag2.1_lab1/system_wrapper/platform.spr"]. Thread: ModalContext
 
-!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-10-07 10:15:57.928
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-10-08 22:09:01.604
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -731,53 +734,53 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:57.942
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:01.621
 !MESSAGE XSCT Command: [domain create -name {standalone_ps7_cortexa9_0} -display-name {standalone_ps7_cortexa9_0} -os {standalone} -proc {ps7_cortexa9_0} -runtime {cpp} -arch {32-bit} -support-app {memory_tests}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.396
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.089
 !MESSAGE XSCT command with result: [domain create -name {standalone_ps7_cortexa9_0} -display-name {standalone_ps7_cortexa9_0} -os {standalone} -proc {ps7_cortexa9_0} -runtime {cpp} -arch {32-bit} -support-app {memory_tests}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.401
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.104
 !MESSAGE XSCT Command: [platform write], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.413
-!MESSAGE XSCT command with result: [platform write], Result: [null, Successfully saved  the platform at "E:/8191588/FPGA_mag2.1_lab1/lab1_platform/platform.spr"]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.117
+!MESSAGE XSCT command with result: [platform write], Result: [null, Successfully saved  the platform at "E:/8191588/FPGA_mag2.1_lab1/system_wrapper/platform.spr"]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.425
-!MESSAGE XSCT Command: [platform active {lab1_platform}], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.130
+!MESSAGE XSCT Command: [platform active {system_wrapper}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.426
-!MESSAGE XSCT command with result: [platform active {lab1_platform}], Result: [null, ]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.131
+!MESSAGE XSCT command with result: [platform active {system_wrapper}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.427
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.132
 !MESSAGE XSCT Command: [domain active {zynq_fsbl}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.428
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.133
 !MESSAGE XSCT command with result: [domain active {zynq_fsbl}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.429
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.134
 !MESSAGE XSCT Command: [domain active {standalone_ps7_cortexa9_0}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.438
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.157
 !MESSAGE XSCT command with result: [domain active {standalone_ps7_cortexa9_0}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.438
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.157
 !MESSAGE XSCT Command: [platform generate -quick], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:15:59.459
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:03.179
 !MESSAGE XSCT command with result: [platform generate -quick], Result: [null, Successfully generated platform at "E:/8191588/FPGA_mag2.1_lab1"]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:00.790
-!MESSAGE XSCT Command: [::hsi::utils::openhw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:04.536
+!MESSAGE XSCT Command: [::hsi::utils::openhw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:01.956
-!MESSAGE XSCT command with result: [::hsi::utils::openhw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.098
+!MESSAGE XSCT command with result: [::hsi::utils::openhw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:01.957
-!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.098
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:01.963
-!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Result: [null, {"processing_system7_0": {"hier_name": "processing_system7_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.105
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Result: [null, {"processing_system7_0": {"hier_name": "processing_system7_0",
 "type": "processing_system7",
 "version": "5.5",
 "ip_type": "",
@@ -939,26 +942,26 @@ java.lang.NullPointerException
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:01.990
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss ], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.123
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss ], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:01.992
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss ], Result: [null, ]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.125
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss ], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:01.992
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.125
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.010
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.142
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "8.1",
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.417
-!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.506
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.425
-!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_13": {"name": "freertos10_xilinx",
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.514
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_13": {"name": "freertos10_xilinx",
 "version": "1.13",
 "desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.5.1",
 "compilerflags": "",
@@ -990,29 +993,29 @@ java.lang.NullPointerException
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.426
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.515
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.427
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, ]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.516
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.428
-!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.516
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.429
-!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, {}]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.518
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, {}]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.446
-!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa ps7_cortexa9_0], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.535
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.448
-!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa ps7_cortexa9_0], Result: [null, ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_uart_1 ps7_xadc_0]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.537
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0], Result: [null, ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_uart_1 ps7_xadc_0]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.448
-!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.537
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.452
-!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, {"ps7_afi_0": {"name": "generic",
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.541
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, {"ps7_afi_0": {"name": "generic",
 "ver": "3.1",
 },
 "ps7_afi_1": {"name": "generic",
@@ -1098,11 +1101,11 @@ java.lang.NullPointerException
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.453
-!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.542
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.523
-!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Result: [null, {"processing_system7_0": {"version": "5.5",
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.613
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Result: [null, {"processing_system7_0": {"version": "5.5",
 "driver_info": {"generic": {"name": "generic",
 "version": "3.1",
 "repo": "E:/xilinx/Vitis/2023.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1",
@@ -1400,115 +1403,1131 @@ java.lang.NullPointerException
 },
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.525
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.626
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.527
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, ]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.628
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.527
-!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.628
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.528
-!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, {}]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.645
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, {}]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.561
-!MESSAGE XSCT Command: [::hsi::utils::openhw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.677
+!MESSAGE XSCT Command: [::hsi::utils::openhw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.563
-!MESSAGE XSCT command with result: [::hsi::utils::openhw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.679
+!MESSAGE XSCT command with result: [::hsi::utils::openhw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.563
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.679
 !MESSAGE XSCT Command: [::hsi::utils::opensw E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.564
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.680
 !MESSAGE XSCT command with result: [::hsi::utils::opensw E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.564
-!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa -sw E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss -app memory_tests -processor ps7_cortexa9_0 -os standalone -dir E:/8191588/FPGA_mag2.1_lab1/lab1/src], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.680
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -sw E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss -app memory_tests -processor ps7_cortexa9_0 -os standalone -dir E:/8191588/FPGA_mag2.1_lab1/lab1/src], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.638
-!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa -sw E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss -app memory_tests -processor ps7_cortexa9_0 -os standalone -dir E:/8191588/FPGA_mag2.1_lab1/lab1/src], Result: [null, ]. Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.741
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -sw E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss -app memory_tests -processor ps7_cortexa9_0 -os standalone -dir E:/8191588/FPGA_mag2.1_lab1/lab1/src], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.681
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.773
 !MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {E:\8191588\FPGA_mag2.1_lab1\lab1\_ide\bitstream}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.683
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.775
 !MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {E:\8191588\FPGA_mag2.1_lab1\lab1\_ide\bitstream}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.683
-!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Thread: ModalContext
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.775
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.699
-!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa], Result: [null, {"device": "7z020",
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.777
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Result: [null, {"device": "7z020",
 "family": "zynq",
-"timestamp": "Mon Oct  7 09:57:59 2024",
+"timestamp": "Mon Oct  7 16:34:29 2024",
 "vivado_version": "2023.1",
 "part": "xc7z020clg484-1",
 }]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:02.699
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:06.786
 !MESSAGE XSCT Command: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {E:/8191588/FPGA_mag2.1_lab1/lab1/_ide/psinit} -quiet], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:06.013
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:11.309
 !MESSAGE XSCT command with result: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {E:/8191588/FPGA_mag2.1_lab1/lab1/_ide/psinit} -quiet], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:06.093
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:11.401
 !MESSAGE XSCT Command: [::hsi::utils::closesw E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:06.095
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:11.402
 !MESSAGE XSCT command with result: [::hsi::utils::closesw E:/8191588/FPGA_mag2.1_lab1/lab1/system.mss], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 1 0 2024-10-07 10:16:06.122
-!MESSAGE Generating MD5 hash for file: E:\8191588\FPGA_mag2.1_lab1\lab1_platform\export\lab1_platform\sw\lab1_platform\standalone_ps7_cortexa9_0\system.mss ...
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-08 22:09:11.441
+!MESSAGE Generating MD5 hash for file: E:\8191588\FPGA_mag2.1_lab1\system_wrapper\export\system_wrapper\sw\system_wrapper\standalone_ps7_cortexa9_0\system.mss ...
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:06.335
-!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:11.664
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:16:06.353
-!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Temp/hwspec_system_wrapper9632554265055011156/system_wrapper.xsa], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:11.682
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Temp/hwspec_system_wrapper7571965856949119406/system_wrapper.xsa], Result: [null, ]. Thread: main
 
-!ENTRY org.eclipse.cdt.core 1 0 2024-10-07 10:16:11.898
-!MESSAGE Indexed 'lab1_platform' (418 sources, 403 headers) in 4,26 sec: 13 777 declarations; 60 683 references; 230 unresolved inclusions; 84 syntax errors; 614 unresolved names (0,82 %)
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-08 22:09:17.326
+!MESSAGE Indexed 'system_wrapper' (419 sources, 404 headers) in 4,34 sec: 13 877 declarations; 61 876 references; 230 unresolved inclusions; 84 syntax errors; 614 unresolved names (0,8 %)
 
-!ENTRY org.eclipse.cdt.core 1 0 2024-10-07 10:16:12.105
-!MESSAGE Indexed 'lab1' (3 sources, 55 headers) in 0,206 sec: 1 506 declarations; 2 405 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-08 22:09:17.502
+!MESSAGE Indexed 'lab1' (3 sources, 55 headers) in 0,174 sec: 1 506 declarations; 2 405 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
 
-!ENTRY org.eclipse.cdt.core 1 0 2024-10-07 10:16:12.107
-!MESSAGE Indexed 'lab1_system' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-08 22:09:17.503
+!MESSAGE Indexed 'lab1_system' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:52:50.325
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-8: Build Project
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:50.694
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-4: Build Project
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:52:50.327
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-8: Build Project
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:50.697
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-4: Build Project
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:52:50.328
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-8: Build Project
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:50.697
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-4: Build Project
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:52:50.330
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:50.699
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "8.1",
-}]. Thread: Worker-8: Build Project
+}]. Thread: Worker-4: Build Project
 
-!ENTRY com.xilinx.sdk.utils 1 0 2024-10-07 10:52:50.330
-!MESSAGE Generating MD5 hash for file: E:\8191588\FPGA_mag2.1_lab1\lab1_platform\export\lab1_platform\sw\lab1_platform\standalone_ps7_cortexa9_0\system.mss ...
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-08 22:09:50.700
+!MESSAGE Generating MD5 hash for file: E:\8191588\FPGA_mag2.1_lab1\system_wrapper\export\system_wrapper\sw\system_wrapper\standalone_ps7_cortexa9_0\system.mss ...
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:52:50.331
-!MESSAGE XSCT Command: [::hsi::utils::closesw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-8: Build Project
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:50.700
+!MESSAGE XSCT Command: [::hsi::utils::closesw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-4: Build Project
 
-!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 10:52:50.332
-!MESSAGE XSCT command with result: [::hsi::utils::closesw E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-8: Build Project
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:09:50.701
+!MESSAGE XSCT command with result: [::hsi::utils::closesw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-4: Build Project
 
-!ENTRY com.xilinx.sdk.utils 1 0 2024-10-07 10:52:55.567
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-08 22:09:56.026
 !MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '1'
 
-!ENTRY org.eclipse.launchbar.core 2 0 2024-10-07 10:53:57.436
+!ENTRY org.eclipse.launchbar.core 2 0 2024-10-08 22:10:49.556
 !MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2024-10-07 10:53:57.436
+!ENTRY org.eclipse.launchbar.core 2 0 2024-10-08 22:10:49.557
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
 
-!ENTRY org.eclipse.launchbar.core 2 0 2024-10-07 10:53:57.437
+!ENTRY org.eclipse.launchbar.core 2 0 2024-10-08 22:10:49.557
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.477
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.481
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "525",
+}]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.482
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.487
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_globaltimer_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.487
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.497
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.498
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.499
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.500
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.501
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.501
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.502
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.502
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.503
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.504
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.505
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.505
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.506
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.507
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.509
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.510
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.515
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_globaltimer_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.516
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.525
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.526
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.528
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.528
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.529
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.529
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.530
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.531
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.532
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.532
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.533
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.534
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.535
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.537
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa bit], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.538
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa bit], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:50.539
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY org.eclipse.tcf 4 0 2024-10-08 22:10:52.727
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2024-10-08 22:10:52.727
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:52.772
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:52.773
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.298
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B0203B]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.299
+!MESSAGE XSCT Command: [version -server], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.315
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.315
+!MESSAGE XSCT Command: [version], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.315
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.318
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.323
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B0203B]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.324
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.340
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.340
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.346
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B0203B]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.346
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.361
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.362
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.368
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B0203B]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.368
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.384
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.386
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.392
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B0203B]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.392
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.407
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.407
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.413
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B0203B]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.414
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.428
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.429
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.434
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B0203B]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.434
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.448
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.449
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zed 210248B0203B" && level == 0}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.464
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zed 210248B0203B" && level == 0}], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.464
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.465
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.466
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.474
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.475
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.565
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:53.565
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.577
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.578
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.597
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.598
+!MESSAGE XSCT Command: [loadhw -hw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.632
+!MESSAGE XSCT command with result: [loadhw -hw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, system_wrapper_1]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.632
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.633
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.634
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.654
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.655
+!MESSAGE XSCT Command: [source E:/8191588/FPGA_mag2.1_lab1/lab1/_ide/psinit/ps7_init.tcl], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.657
+!MESSAGE XSCT command with result: [source E:/8191588/FPGA_mag2.1_lab1/lab1/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.657
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.881
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.882
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.886
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.887
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.894
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:56.895
+!MESSAGE XSCT Command: [dow E:/8191588/FPGA_mag2.1_lab1/lab1/Debug/lab1.elf], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:57.058
+!MESSAGE XSCT command with result: [dow E:/8191588/FPGA_mag2.1_lab1/lab1/Debug/lab1.elf], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:57.058
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:57.078
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:57.184
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:57.193
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:57.193
+!MESSAGE XSCT Command: [con], Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:10:57.210
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-7: Launching Debugger_lab1-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-08 22:10:57.214
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:11:18.070
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-154
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-08 22:11:18.073
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-154

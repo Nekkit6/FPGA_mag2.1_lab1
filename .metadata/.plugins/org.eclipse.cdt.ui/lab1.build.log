@@ -1,4 +1,4 @@
-10:52:50 **** Build of configuration Debug for project lab1 ****
+22:09:50 **** Build of configuration Debug for project lab1 ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -6,22 +6,22 @@ a9-linaro-pre-build-step
 make --no-print-directory main-build
 'Building file: ../src/memory_config_g.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
 'Finished building: ../src/memory_config_g.c'
 ' '
 'Building file: ../src/memorytest.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
 'Finished building: ../src/memorytest.c'
 ' '
 'Building file: ../src/platform.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
 'Finished building: ../src/platform.c'
 ' '
 'Building target: lab1.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/bsplib/lib -o "lab1.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "lab1.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: lab1.elf'
 ' '
 'Invoking: ARM v7 Print Size'
@@ -31,5 +31,5 @@ arm-none-eabi-size lab1.elf  |tee "lab1.elf.size"
 'Finished building: lab1.elf.size'
 ' '
 
-10:52:50 Build Finished (took 522ms)
+22:09:51 Build Finished (took 657ms)
 

@@ -1,8 +1,8 @@
-10:52:42 **** Build of project lab1_platform ****
-buildplatform.bat 50490 lab1_platform  
+22:09:42 **** Build of project system_wrapper ****
+buildplatform.bat 50173 system_wrapper  
 XSDB Server Channel: tcfchan#1
 Building the zynq_fsbl application.
-make: Entering directory 'E:/8191588/FPGA_mag2.1_lab1/lab1_platform/zynq_fsbl/zynq_fsbl_bsp'
+make: Entering directory 'E:/8191588/FPGA_mag2.1_lab1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp'
 
 make --no-print-directory seq_libs
 
@@ -192,11 +192,11 @@ iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
 
 "Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
 
-"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
-
 make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
 RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
 files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
 
 make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
 CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
@@ -278,7 +278,7 @@ _0/lib/xuartps_options.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/li
 arm-none-eabi-ar: creating ps7_cortexa9_0/lib/libxil.a
 'Finished building libraries'
 
-make: Leaving directory 'E:/8191588/FPGA_mag2.1_lab1/lab1_platform/zynq_fsbl/zynq_fsbl_bsp'
+make: Leaving directory 'E:/8191588/FPGA_mag2.1_lab1/system_wrapper/zynq_fsbl/zynq_fsbl_bsp'
 
 arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
 exa9_0/include -I.
@@ -331,11 +331,11 @@ make -j 6 --no-print-directory par_libs
 
 "Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
 make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
 -eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
 ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
-
-"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
 
 "Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
 
@@ -379,11 +379,11 @@ artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
 
 "Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_1/src"
 
-"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_12/src"
-
 make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
 -as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
 nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_12/src"
 
 make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
 " "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
@@ -495,7 +495,7 @@ _0/lib/xuartps_options.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/li
 arm-none-eabi-ar: creating ps7_cortexa9_0/lib/libxil.a
 'Finished building libraries'
 
-10:52:50 **** Build of configuration Debug for project lab1 ****
+22:09:50 **** Build of configuration Debug for project lab1 ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -503,22 +503,22 @@ a9-linaro-pre-build-step
 make --no-print-directory main-build
 'Building file: ../src/memory_config_g.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memory_config_g.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/memory_config_g.d" -MT"src/memory_config_g.o" -o "src/memory_config_g.o" "../src/memory_config_g.c"
 'Finished building: ../src/memory_config_g.c'
 ' '
 'Building file: ../src/memorytest.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
 'Finished building: ../src/memorytest.c'
 ' '
 'Building file: ../src/platform.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
 'Finished building: ../src/platform.c'
 ' '
 'Building target: lab1.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/sw/lab1_platform/standalone_ps7_cortexa9_0/bsplib/lib -o "lab1.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/sw/system_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "lab1.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: lab1.elf'
 ' '
 'Invoking: ARM v7 Print Size'
@@ -527,9 +527,9 @@ arm-none-eabi-size lab1.elf  |tee "lab1.elf.size"
   28646	   1184	  14392	  44222	   acbe	lab1.elf
 'Finished building: lab1.elf.size'
 ' '
-10:52:51 **** Build of configuration Debug for project lab1_system ****
+22:09:51 **** Build of configuration Debug for project lab1_system ****
 make all 
 Generating bif file for the system project
-generate_system_bif.bat 50490 E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/lab1_platform.xpfm standalone_ps7_cortexa9_0 E:/8191588/FPGA_mag2.1_lab1/lab1_system/Debug/system.bif
-sdcard_gen --xpfm E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/lab1_platform.xpfm --sys_config lab1_platform --bif E:/8191588/FPGA_mag2.1_lab1/lab1_system/Debug/system.bif --no_bitstream --elf E:/8191588/FPGA_mag2.1_lab1/lab1/Debug/lab1.elf,ps7_cortexa9_0
+generate_system_bif.bat 50173 E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/system_wrapper.xpfm standalone_ps7_cortexa9_0 E:/8191588/FPGA_mag2.1_lab1/lab1_system/Debug/system.bif
+sdcard_gen --xpfm E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/system_wrapper.xpfm --sys_config system_wrapper --bif E:/8191588/FPGA_mag2.1_lab1/lab1_system/Debug/system.bif --no_bitstream --elf E:/8191588/FPGA_mag2.1_lab1/lab1/Debug/lab1.elf,ps7_cortexa9_0
 Running E:/xilinx/Vitis/2023.1/bin/bootgen  -image E:/8191588/FPGA_mag2.1_lab1/lab1_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
