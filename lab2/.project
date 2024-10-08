@@ -3,7 +3,7 @@
 	<name>lab2</name>
 	<comment>Created by Vitis v2023.1</comment>
 	<projects>
-		<project>lab2platform</project>
+		<project>system_wrapper</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

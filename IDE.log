@@ -1,36 +1,63 @@
-10:05:53 DEBUG : Logs will be stored at 'E:/8191588/FPGA_mag2.1_lab1/IDE.log'.
-10:06:33 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\8191588\FPGA_mag2.1_lab1\temp_xsdb_launch_script.tcl
-10:06:33 INFO  : Registering command handlers for Vitis TCF services
-10:06:34 INFO  : Platform repository initialization has completed.
-10:06:35 INFO  : XSCT server has started successfully.
-10:06:35 INFO  : Successfully done setting XSCT server connection channel  
-10:06:35 INFO  : plnx-install-location is set to ''
-10:06:35 INFO  : Successfully done setting workspace for the tool. 
-10:06:35 INFO  : Successfully done query RDI_DATADIR 
-10:15:58 INFO  : Result from executing command 'getProjects': lab1_platform
-10:15:58 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
-10:15:59 WARN  : An unexpected exception occurred in the module 'platform project logging'
-10:16:00 INFO  : Platform 'lab1_platform' is added to custom repositories.
-10:16:07 INFO  : Platform 'lab1_platform' is added to custom repositories.
-10:52:49 INFO  : Result from executing command 'getProjects': lab1_platform
-10:52:49 INFO  : Result from executing command 'getPlatforms': lab1_platform|E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/lab1_platform.xpfm;xilinx_vck190_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
-10:52:50 INFO  : Checking for BSP changes to sync application flags for project 'lab1'...
-12:18:49 DEBUG : Logs will be stored at 'E:/8191588/FPGA_mag2.1_lab1/IDE.log'.
-12:18:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\8191588\FPGA_mag2.1_lab1\temp_xsdb_launch_script.tcl
-12:18:51 INFO  : XSCT server has started successfully.
-12:18:51 INFO  : plnx-install-location is set to ''
-12:18:51 INFO  : Successfully done setting XSCT server connection channel  
-12:18:51 INFO  : Successfully done setting workspace for the tool. 
-12:18:52 INFO  : Successfully done query RDI_DATADIR 
-12:18:52 INFO  : Registering command handlers for Vitis TCF services
-12:18:53 INFO  : Platform repository initialization has completed.
-12:22:18 INFO  : Result from executing command 'getProjects': lab1_platform;lab2platform
-12:22:18 INFO  : Result from executing command 'getPlatforms': lab1_platform|E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/lab1_platform.xpfm;xilinx_vck190_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
-12:22:19 WARN  : An unexpected exception occurred in the module 'platform project logging'
-12:22:20 INFO  : Platform 'lab2platform' is added to custom repositories.
-12:22:27 INFO  : Platform 'lab2platform' is added to custom repositories.
-12:28:54 INFO  : Result from executing command 'getProjects': lab1_platform;lab2platform
-12:28:54 INFO  : Result from executing command 'getPlatforms': lab1_platform|E:/8191588/FPGA_mag2.1_lab1/lab1_platform/export/lab1_platform/lab1_platform.xpfm;lab2platform|E:/8191588/FPGA_mag2.1_lab1/lab2platform/export/lab2platform/lab2platform.xpfm;xilinx_vck190_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
-12:28:55 INFO  : Checking for BSP changes to sync application flags for project 'lab2'...
-12:30:21 INFO  : Checking for BSP changes to sync application flags for project 'lab2'...
-12:31:30 INFO  : Checking for BSP changes to sync application flags for project 'lab2'...
+22:58:37 DEBUG : Logs will be stored at 'E:/8191588/FPGA_mag2.1_lab1/IDE.log'.
+22:58:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\8191588\FPGA_mag2.1_lab1\temp_xsdb_launch_script.tcl
+22:58:42 INFO  : Registering command handlers for Vitis TCF services
+22:58:43 INFO  : Platform repository initialization has completed.
+22:58:45 INFO  : XSCT server has started successfully.
+22:58:45 INFO  : plnx-install-location is set to ''
+22:58:45 INFO  : Successfully done setting XSCT server connection channel  
+22:58:45 INFO  : Successfully done query RDI_DATADIR 
+22:58:45 INFO  : Successfully done setting workspace for the tool. 
+22:59:43 INFO  : Result from executing command 'getProjects': system_wrapper
+22:59:43 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:59:44 WARN  : An unexpected exception occurred in the module 'platform project logging'
+22:59:45 INFO  : Platform 'system_wrapper' is added to custom repositories.
+22:59:53 INFO  : Platform 'system_wrapper' is added to custom repositories.
+23:01:39 INFO  : Result from executing command 'getProjects': system_wrapper
+23:01:39 INFO  : Result from executing command 'getPlatforms': system_wrapper|E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/system_wrapper.xpfm;xilinx_vck190_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|E:/xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:01:41 INFO  : Checking for BSP changes to sync application flags for project 'lab2'...
+23:02:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:02:29 INFO  : Jtag cable 'Digilent Zed 210248B0203B' is selected.
+23:02:29 INFO  : 'jtag frequency' command is executed.
+23:02:29 INFO  : Context for 'APU' is selected.
+23:02:29 INFO  : System reset is completed.
+23:02:32 INFO  : 'after 3000' command is executed.
+23:02:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B0203B-23727093-0"}' command is executed.
+23:02:34 INFO  : Device configured successfully with "E:/8191588/FPGA_mag2.1_lab1/lab2/_ide/bitstream/system_wrapper.bit"
+23:02:35 INFO  : Context for 'APU' is selected.
+23:02:35 INFO  : Hardware design and registers information is loaded from 'E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+23:02:35 INFO  : 'configparams force-mem-access 1' command is executed.
+23:02:35 INFO  : Context for 'APU' is selected.
+23:02:35 INFO  : Sourcing of 'E:/8191588/FPGA_mag2.1_lab1/lab2/_ide/psinit/ps7_init.tcl' is done.
+23:02:35 INFO  : 'ps7_init' command is executed.
+23:02:35 INFO  : 'ps7_post_config' command is executed.
+23:02:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:02:35 INFO  : The application 'E:/8191588/FPGA_mag2.1_lab1/lab2/Debug/lab2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:02:35 INFO  : 'configparams force-mem-access 0' command is executed.
+23:02:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B0203B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B0203B-23727093-0"}
+fpga -file E:/8191588/FPGA_mag2.1_lab1/lab2/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/8191588/FPGA_mag2.1_lab1/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/8191588/FPGA_mag2.1_lab1/lab2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/8191588/FPGA_mag2.1_lab1/lab2/Debug/lab2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:02:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:02:35 INFO  : 'con' command is executed.
+23:02:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:02:35 INFO  : Launch script is exported to file 'E:\8191588\FPGA_mag2.1_lab1\lab2_system\_ide\scripts\debugger_lab2-default.tcl'
+23:03:42 INFO  : Disconnected from the channel tcfchan#2.

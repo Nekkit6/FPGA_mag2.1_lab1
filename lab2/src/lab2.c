@@ -16,7 +16,7 @@ int main (void)
 	
     xil_printf("-- Start of the Program --\r\n");
  
-    XGpio_Initialize(&dip, XPAR_SWITHES_DEVICE_ID);
+    XGpio_Initialize(&dip, XPAR_SWITCHES_DEVICE_ID);
 	XGpio_SetDataDirection(&dip, 1, 0xffffffff);
 	
 	XGpio_Initialize(&push, XPAR_BUTTONS_DEVICE_ID);
